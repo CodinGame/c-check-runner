@@ -3,9 +3,6 @@
 # Move to project
 cd /project/target
 
-# Copy answer
-cp -r /project/answer/* .
-
 # Compile
 if make > /tmp/compilation_logs 2>&1; then
 	export CK_RUN_CASE=$2
