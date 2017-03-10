@@ -9,7 +9,7 @@ In order to use this runner for your project, edit the `codingame.yml` file and 
 ```yaml
 runner:
   name: codingame/c-check-runner
-  version: 1.0-gcc-6.3
+  version: 1.1.0-gcc-6.3
 ```
 
 You project will be compiled with the following:
