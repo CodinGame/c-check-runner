@@ -7,9 +7,7 @@ This is a C runner for the Check unit testing framework.
 In order to use this runner for your project, edit the `codingame.yml` file and add the following lines to your project:
 
 ```yaml
-runner:
-  name: codingame/c-check-runner
-  version: 1.1.0-gcc-6.3
+runner: techio/c-check-runner:1.1.0-gcc-6.3
 ```
 
 You project will be compiled with the following:
